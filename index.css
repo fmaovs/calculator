@@ -1,0 +1,25 @@
+*{
+    background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+body{
+    display: grid;
+}
+.display{
+    display: grid;
+    padding: 10 em;
+    background-color: black;
+    color: green;
+    align-items: center;
+    margin: auto;
+    justify-items: center;
+}
+
+.bottons-container{
+    display: flex;
+    flex-flow: row-wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: pink ;
+}
